@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/libco/co_routine.h
+stdint.h
+-
+sys/poll.h
+-
+pthread.h
+-
+
+/home/ubuntu/libco/co_routine_inner.h
+co_routine.h
+/home/ubuntu/libco/co_routine.h
+coctx.h
+/home/ubuntu/libco/coctx.h
+
+/home/ubuntu/libco/coctx.h
+stdlib.h
+-
+
+/home/ubuntu/libco/example_copystack.cpp
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/time.h
+-
+errno.h
+-
+string.h
+-
+coctx.h
+/home/ubuntu/libco/coctx.h
+co_routine.h
+/home/ubuntu/libco/co_routine.h
+co_routine_inner.h
+/home/ubuntu/libco/co_routine_inner.h
+

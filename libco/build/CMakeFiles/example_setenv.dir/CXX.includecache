@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/libco/co_routine.h
+stdint.h
+-
+sys/poll.h
+-
+pthread.h
+-
+
+/home/ubuntu/libco/example_setenv.cpp
+unistd.h
+-
+stdio.h
+-
+errno.h
+-
+string.h
+-
+stdlib.h
+-
+queue
+-
+co_routine.h
+/home/ubuntu/libco/co_routine.h
+
